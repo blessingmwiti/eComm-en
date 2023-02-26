@@ -28,5 +28,18 @@
         height: 500px;
         padding-top: 100px;
     }
+    img.slider-img{
+        height: 400px !important;
+        margin: 50px auto 20px;
+    }
+    a.footer-link{
+        color: cadetblue;
+    }
+    a.footer-link:hover{
+        color: brown;
+    }
+    .custom-product{
+        height: 100vh;
+    }
 </style>
 </html>

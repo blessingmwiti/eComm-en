@@ -16,25 +16,25 @@ class ProductSeeder extends Seeder
         //
         DB::table("products")->insert([
             [
-            'name'=>'iphone 14',
-            'price'=>'Ksh 120450',
-            'category'=>'phones',
-            'description'=>'iphone latest release',
-            'gallery'=>'https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro-max-.jpg'
+                'name'=>'banner',
+                'price'=>'100',
+                'category'=>'banner',
+                'description'=>'banner release',
+                'gallery'=>'https://img.freepik.com/premium-photo/banner-panorama-new-york-cityscape-with-brooklyn-bridge-east-river-evening-time_41418-3785.jpg?w=2000'
             ],
             [
-                'name'=>'tecno camon 12',
-                'price'=>'Ksh 18450',
-                'category'=>'phones',
-                'description'=>'a tecno product',
-                'gallery'=>'https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-12.jpg'
+                'name'=>'banner',
+                'price'=>'100',
+                'category'=>'banner',
+                'description'=>'banner release',
+                'gallery'=>'https://www.evteqglobal.com/wp-content/uploads/2015/02/EVteQ-banner-2000x800.jpg'
             ],
             [
-                'name'=>'samsung s23 ultra',
-                'price'=>'Ksh 110450',
-                'category'=>'phones',
-                'description'=>'latest samsung release',
-                'gallery'=>'https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s23-ultra-5g.jpg'
+                'name'=>'banner',
+                'price'=>'100',
+                'category'=>'banner',
+                'description'=>'banner release',
+                'gallery'=>'https://www.telesto.com.au/wp-content/uploads/2017/11/page-banner-network.jpg'
             ]
         ]);
     }
