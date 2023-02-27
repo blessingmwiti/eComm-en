@@ -16,25 +16,25 @@ class ProductSeeder extends Seeder
         //
         DB::table("products")->insert([
             [
-                'name'=>'banner',
-                'price'=>'100',
-                'category'=>'banner',
-                'description'=>'banner release',
-                'gallery'=>'https://img.freepik.com/premium-photo/banner-panorama-new-york-cityscape-with-brooklyn-bridge-east-river-evening-time_41418-3785.jpg?w=2000'
+                'name'=>'iPhone 14 pro plus',
+                'price'=>'220450',
+                'category'=>'phone',
+                'description'=>'latest iPhone release',
+                'gallery'=>'https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-hero-220907.jpg.news_app_ed.jpg'
             ],
             [
-                'name'=>'banner',
-                'price'=>'100',
-                'category'=>'banner',
-                'description'=>'banner release',
-                'gallery'=>'https://www.evteqglobal.com/wp-content/uploads/2015/02/EVteQ-banner-2000x800.jpg'
+                'name'=>'Samsung S23 ultra',
+                'price'=>'124500',
+                'category'=>'phone',
+                'description'=>'latest samsung release',
+                'gallery'=>'https://image-us.samsung.com/us/smartphones/galaxy-s23-ultra/images/galaxy-s23-ultra-highlights-kv.jpg'
             ],
             [
-                'name'=>'banner',
-                'price'=>'100',
-                'category'=>'banner',
-                'description'=>'banner release',
-                'gallery'=>'https://www.telesto.com.au/wp-content/uploads/2017/11/page-banner-network.jpg'
+                'name'=>'oppo reno 8t 5g',
+                'price'=>'56890',
+                'category'=>'phone',
+                'description'=>'latest oppo release',
+                'gallery'=>'https://amateurphotographer.com/wp-content/uploads/sites/7/2022/09/Oppo-Reno-8-Pro-main.jpg'
             ]
         ]);
     }

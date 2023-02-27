@@ -9,20 +9,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </head>
-<body>
+<body data-bs-theme="auto">
     {{View::make("header")}}
     @yield("content")
     {{View::make("footer")}}
 </body>
-<!---- for testing whether jquery was working
-<script>
-    $(document).ready(function(){
-        $("button").click(function(){
-            alert("All set amigos");
-        })
-    })
-</script>
------>
 <style>
     .custom-login{
         height: 500px;
@@ -30,7 +21,8 @@
     }
     img.slider-img{
         height: 400px !important;
-        margin: 50px auto 20px;
+        margin: 0px auto 20px;
+        width: 100%;
     }
     a.footer-link{
         color: cadetblue;
@@ -39,7 +31,14 @@
         color: brown;
     }
     .custom-product{
-        height: 100vh;
+        height: 600px;
+        background-color: darkslategrey;
     }
+    h4.pr-h4{
+        margin-top: 50px;
+    }
+    .img-text{
+        background-color: #1a1a1aab !important;
+}
 </style>
 </html>
