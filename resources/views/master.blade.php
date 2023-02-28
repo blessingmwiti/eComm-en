@@ -32,13 +32,23 @@
     }
     .custom-product{
         height: 600px;
-        background-color: darkslategrey;
+        /*background-color: darkslategrey;*/
     }
     h4.pr-h4{
         margin-top: 50px;
     }
     .img-text{
         background-color: #1a1a1aab !important;
-}
+    }
+    img.trend-img{
+        height: 80px;
+    }
+    .trend-item{
+        float: left;
+        width: 33%;
+    }
+    .trending-wrapper{
+        margin-left: 30px;
+    }
 </style>
 </html>

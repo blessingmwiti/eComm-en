@@ -27,10 +27,17 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-  <div class="row p-auto">
-    <div class="col-md-12">
-      <h4 class="text-center pr-h4">e-Comm project</h4>
+<div class="trending-wrapper">
+  <h3 class="text-center">Trending Products</h3>
+  @foreach ($products as $item)
+    <div class="trend-item">
+      <img src="{{$item['gallery']}}" class="trend-img" alt="...">
+      <div class="">
+        <h5>{{$item['name']}}</h5>
+        <p>{{$item['description']}}</p>
+      </div>
     </div>
-  </div>
+    @endforeach
+</div>
 </div>
 @endsection
