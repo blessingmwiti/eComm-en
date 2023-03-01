@@ -31,7 +31,7 @@
         color: brown;
     }
     .custom-product{
-        height: 600px;
+        height: 650px;
         /*background-color: darkslategrey;*/
     }
     h4.pr-h4{
@@ -45,7 +45,7 @@
     }
     .trend-item{
         float: left;
-        width: 33%;
+        width: 25%;
     }
     .trending-wrapper{
         margin-left: 30px;

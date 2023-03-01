@@ -38,6 +38,7 @@
       <div class="">
         <h5>{{$item['name']}}</h5>
         <p>{{$item['description']}}</p>
+        <p>Ksh {{$item['price']}}</p>
       </div>
       </a>
     </div>
