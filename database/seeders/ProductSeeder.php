@@ -35,6 +35,13 @@ class ProductSeeder extends Seeder
                 'category'=>'phone',
                 'description'=>'latest reno release',
                 'gallery'=>'https://i0.wp.com/tech-ish.com/wp-content/uploads/2023/02/IMG_5953-Large.jpeg?fit=1280%2C720&ssl=1'
+            ],
+            [
+                'name'=>'Nokia',
+                'price'=>'43450',
+                'category'=>'phone',
+                'description'=>'latest nokia release',
+                'gallery'=>'https://cdn.images.express.co.uk/img/dynamic/59/1200x712/1663601_1.jpg'
             ]
         ]);
     }
